@@ -1,10 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hello Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Programming Experiments</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: #1f1f1f;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+      transition: transform 0.2s, background 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: #2a2a2a;
+    }
+    .card a {
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+      font-size: 18px;
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+  <h1>Web Programming Experiments</h1>
+  <div class="grid">
+    <div class="card">
+      <h2>Experiment 1</h2>
+      <a href="Experiment1/main.html" target="_blank">Open</a>
+    </div>
+    <div class="card">
+      <h2>Experiment 2</h2>
+      <a href="Experiment2/main.html" target="_blank">Open</a>
+    </div>
+    <div class="card">
+      <h2>Experiment 3</h2>
+      <a href="Experiment3/main.html" target="_blank">Open</a>
+    </div>
+    <div class="card">
+      <h2>Experiment 4</h2>
+      <a href="Experiment4/main.html" target="_blank">Open</a>
+    </div>
+    <div class="card">
+      <h2>Experiment 5</h2>
+      <a href="Experiment5/main.html" target="_blank">Open</a>
+    </div>
+  </div>
 </body>
 </html>
-
